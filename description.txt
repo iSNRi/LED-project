@@ -1,0 +1,4 @@
+ This code initializes a microcontroller and monitors a button press duration. 
+Three LEDs connected to RB1, RB2, and RB3 indicate short, medium, and long button presses, respectively. 
+The program checks RB0 for button presses, lighting up the appropriate LED based on the press duration. 
+After each press, there's a 3-second delay before resetting the LEDs.
